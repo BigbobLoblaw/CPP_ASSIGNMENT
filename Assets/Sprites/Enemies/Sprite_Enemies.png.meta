@@ -265,7 +265,7 @@ TextureImporter:
     second: Sprite_Enemies_86
   - first:
       213: -7185912387340643949
-    second: Sprite_Enemies_87
+    second: Bullet
   - first:
       213: -5709072872950518472
     second: Sprite_Enemies_88
@@ -349,16 +349,16 @@ TextureImporter:
     second: Sprite_Enemies_114
   - first:
       213: -5713830264764275594
-    second: Sprite_Enemies_115
+    second: Spiky_03
   - first:
       213: -444155235259428860
-    second: Sprite_Enemies_116
+    second: Spiky_05
   - first:
       213: -6806909918658027132
-    second: Sprite_Enemies_117
+    second: Spiky_06
   - first:
       213: 5517255145631566125
-    second: Sprite_Enemies_118
+    second: Spikes_01
   - first:
       213: -3017849993568766323
     second: Sprite_Enemies_119
@@ -367,13 +367,13 @@ TextureImporter:
     second: Sprite_Enemies_120
   - first:
       213: -7566174960529050101
-    second: Sprite_Enemies_121
+    second: Spiky_01
   - first:
       213: 4879715161049816077
-    second: Sprite_Enemies_122
+    second: Spiky_02
   - first:
       213: 2144175844591041725
-    second: Sprite_Enemies_123
+    second: Spiky_04
   - first:
       213: -2112594687352248262
     second: Sprite_Enemies_124
@@ -493,46 +493,46 @@ TextureImporter:
     second: Sprite_Enemies_162
   - first:
       213: 5798151762304724871
-    second: Sprite_Enemies_163
+    second: Probe_01
   - first:
       213: 54129436759198872
-    second: Sprite_Enemies_164
+    second: Probe_02
   - first:
       213: -3505872654188097446
-    second: Sprite_Enemies_165
+    second: Probe_03
   - first:
       213: -2904214472429962897
-    second: Sprite_Enemies_166
+    second: Probe_04
   - first:
       213: 7968062929585594320
-    second: Sprite_Enemies_167
+    second: Probe_05
   - first:
       213: -3172523602754193250
-    second: Sprite_Enemies_168
+    second: Probe_06
   - first:
       213: -746461755183442388
-    second: Sprite_Enemies_169
+    second: Probe_07
   - first:
       213: -3057130212143786841
-    second: Sprite_Enemies_170
+    second: Probe_08
   - first:
       213: -8872064651309426055
-    second: Sprite_Enemies_171
+    second: Probe_09
   - first:
       213: -466606416574825804
-    second: Sprite_Enemies_172
+    second: Probe_10
   - first:
       213: 4125910422778248347
-    second: Sprite_Enemies_173
+    second: Probe_11
   - first:
       213: 7556106292980594773
-    second: Sprite_Enemies_174
+    second: Probe_12
   - first:
       213: 4418006526108244367
-    second: Sprite_Enemies_175
+    second: Probe_13
   - first:
       213: 877008885820949663
-    second: Sprite_Enemies_176
+    second: Probe_14
   - first:
       213: 7787538703568309714
     second: Sprite_Enemies_177
@@ -902,9 +902,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 637
+        y: 650
         width: 51
-        height: 42
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -923,9 +923,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 55
-        y: 638
+        y: 650
         width: 57
-        height: 44
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -944,9 +944,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 114
-        y: 638
+        y: 650
         width: 47
-        height: 43
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2515,7 +2515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_87
+      name: Bullet
       rect:
         serializedVersion: 2
         x: 2
@@ -3103,7 +3103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_115
+      name: Spiky_03
       rect:
         serializedVersion: 2
         x: 82
@@ -3124,7 +3124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_116
+      name: Spiky_05
       rect:
         serializedVersion: 2
         x: 161
@@ -3145,12 +3145,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_117
+      name: Spiky_06
       rect:
         serializedVersion: 2
         x: 201
         y: 229
-        width: 73
+        width: 38
         height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3166,12 +3166,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_118
+      name: Spikes_01
       rect:
         serializedVersion: 2
-        x: 324
+        x: 330
         y: 229
-        width: 42
+        width: 36
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3229,7 +3229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_121
+      name: Spiky_01
       rect:
         serializedVersion: 2
         x: 2
@@ -3250,7 +3250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_122
+      name: Spiky_02
       rect:
         serializedVersion: 2
         x: 42
@@ -3271,7 +3271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_123
+      name: Spiky_04
       rect:
         serializedVersion: 2
         x: 120
@@ -4111,7 +4111,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_163
+      name: Probe_01
       rect:
         serializedVersion: 2
         x: 72
@@ -4132,7 +4132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_164
+      name: Probe_02
       rect:
         serializedVersion: 2
         x: 80
@@ -4153,7 +4153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_165
+      name: Probe_03
       rect:
         serializedVersion: 2
         x: 91
@@ -4174,7 +4174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_166
+      name: Probe_04
       rect:
         serializedVersion: 2
         x: 103
@@ -4195,7 +4195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_167
+      name: Probe_05
       rect:
         serializedVersion: 2
         x: 118
@@ -4216,7 +4216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_168
+      name: Probe_06
       rect:
         serializedVersion: 2
         x: 138
@@ -4237,7 +4237,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_169
+      name: Probe_07
       rect:
         serializedVersion: 2
         x: 162
@@ -4258,7 +4258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_170
+      name: Probe_08
       rect:
         serializedVersion: 2
         x: 190
@@ -4279,7 +4279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_171
+      name: Probe_09
       rect:
         serializedVersion: 2
         x: 218
@@ -4300,7 +4300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_172
+      name: Probe_10
       rect:
         serializedVersion: 2
         x: 246
@@ -4321,7 +4321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_173
+      name: Probe_11
       rect:
         serializedVersion: 2
         x: 274
@@ -4342,7 +4342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_174
+      name: Probe_12
       rect:
         serializedVersion: 2
         x: 302
@@ -4363,7 +4363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_175
+      name: Probe_13
       rect:
         serializedVersion: 2
         x: 330
@@ -4384,7 +4384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_176
+      name: Probe_14
       rect:
         serializedVersion: 2
         x: 358

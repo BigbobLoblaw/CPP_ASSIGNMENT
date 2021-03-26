@@ -16,28 +16,25 @@ public class Pickups : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             switch (currentCollectible)
             {
                 case CollectibleType.POWERUP:
-                    Debug.Log("POWERUP GET!");
+                    Debug.Log("PowerUp");
                     collision.GetComponent<PlayerMovement>().StartJumpForceChange();
-                    Destroy(this.gameObject);
+                    Destroy(gameObject);
                     break;
-
-                case CollectibleType.COLLECTIBLE:
-                    Debug.Log("MONEY GET!");
-                    collision.GetComponent<PlayerMovement>().score++;
-                    Destroy(this.gameObject);
-                    break;
-
                 case CollectibleType.LIVES:
-                    Debug.Log("LIFE GET!");
-                    collision.GetComponent<PlayerMovement>().lives++;
-                    Destroy(this.gameObject);
+                    Debug.Log("Lives");
+                    GameManager.instance.lives++;
+                    Destroy(gameObject);
                     break;
-
+                case CollectibleType.COLLECTIBLE:
+                    Debug.Log("Collectible");
+                    GameManager.instance.score++;
+                    Destroy(gameObject);
+                    break;
             }
 
         }

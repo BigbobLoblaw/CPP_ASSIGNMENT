@@ -22,9 +22,27 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name != "PowerUp" && collision.gameObject.name != "Collectible" && collision.gameObject.name != "Life")
+        if (collision.gameObject.tag != "Pickups")
         {
-            Debug.Log(collision.name);
+            if (collision.gameObject.tag == "Enemy" && gameObject.tag == "EnemyProjectile")
+            {
+                //do nothing
+            }
+            else if (collision.gameObject.tag == "Player" && gameObject.tag == "EnemyProjectile")
+            {
+                //do nothing
+            }
+            else
+            {
+                Debug.Log(collision.name);
+                Destroy(gameObject);
+            }
+            
+        }
+
+        if (collision.gameObject.tag == "Enemy" && gameObject.tag == "PlayerProjectile")
+        {
+            collision.gameObject.GetComponent<EnemyWalker>().IsDead();
             Destroy(gameObject);
         }
 
